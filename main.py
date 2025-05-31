@@ -13,7 +13,7 @@ from google import genai
 from google.genai import types
 
 # ==== Setup Gemini Client ====
-client = genai.Client(api_key='AIzaSyBKfoF9vB_ggGFeex689WlcIemnRVd3cxk')
+client = genai.Client(api_key='INSERT_YOUR_API_KEY')
 model = "gemini-2.5-flash-preview-05-20"
 
 generate_content_config = types.GenerateContentConfig(
